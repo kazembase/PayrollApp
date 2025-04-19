@@ -1,0 +1,39 @@
+# تنظیمات محیط توسعه و فایل‌های موقت
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# پوشه‌های کامپایل
+bin/
+obj/
+
+# فایل‌های لاگ
+*.log
+
+# پایگاه داده لوکال (اگر از SQLite یا LocalDB استفاده می‌کنید)
+*.mdf
+*.ldf
+*.sqlite
+
+# بسته‌های NuGet
+*.nupkg
+# پوشه‌ی بسته‌های روت (در صورت استفاده از NuGet Package Restore)
+packages/
+
+# فایل‌های پیکربندی حسّاس (اگر نمی‌خواهید در مخزن بماند)
+appsettings.Development.json
+appsettings.Secrets.json
+
+# خروجی‌های تست
+TestResults/
+*.trx
+
+# فایل‌های پوشه‌ی Docker (در صورت استفاده)
+docker-compose.override.yml
+
+# سایر
+.DS_Store     # فایل سیستمی macOS
+Thumbs.db     # فایل سیستمی Windows
